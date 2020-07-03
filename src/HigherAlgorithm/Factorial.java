@@ -8,11 +8,11 @@ package HigherAlgorithm;
 public class Factorial {
     public static void main(String[] args) {
         long result = factorial(6);
-        System.out.println("递归计算阶乘结果为："+result);
+        System.out.println("递归计算阶乘结果为：" + result);
     }
 
     //求N的阶乘
-    private static long factorial(int N){
+    private static long factorial(int N) {
         if (N == 1) {
             return 1;
         }

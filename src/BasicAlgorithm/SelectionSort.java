@@ -17,10 +17,10 @@ public class SelectionSort {
             int minIndex = i;
             for (int j = i + 1; j < a.length; j++) {
                 if (greater(a[minIndex], a[j])) {
-                    minIndex=j;     //j就是新的最小值
+                    minIndex = j;     //j就是新的最小值
                 }
             }
-            exch(a,minIndex,i);     //互换新的最小值和i下标的位置
+            exch(a, minIndex, i);     //互换新的最小值和i下标的位置
         }
     }
 
@@ -38,6 +38,7 @@ public class SelectionSort {
 
     /**
      * a数组下标i和j位置互换
+     *
      * @param a
      * @param i
      * @param j

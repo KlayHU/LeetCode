@@ -7,7 +7,7 @@ import Linear.SequenceList;
  * @author: KlayHu
  * @create: 2020/6/16 20:26
  **/
-public class SequenceList2 {
+public class SequenceListCompTest {
     public static void main(String[] args) {
         SequenceList<String> sequenceList = new SequenceList<>(5);
         sequenceList.insert("张三");

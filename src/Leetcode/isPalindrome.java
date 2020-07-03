@@ -6,7 +6,7 @@ package Leetcode;
  * @create: 2019/12/8 16:17
  **/
 public class isPalindrome {
-    public boolean isPalindromes (int x) {
+    public boolean isPalindromes(int x) {
         if (x < 0) {
             return false;
         }
@@ -29,6 +29,7 @@ public class isPalindrome {
         System.out.println("true");
         return true;
     }
+
     public static void main(String[] args) {
         isPalindrome i = new isPalindrome();
         i.isPalindromes(112211);

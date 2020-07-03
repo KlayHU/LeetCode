@@ -1,6 +1,7 @@
 package Leetcode;
 
 import java.util.Arrays;
+
 /**
  * @description:
  * @author: KlayHu
@@ -14,13 +15,14 @@ public class removeDuplicates {
         for (fast = 1; fast < nums.length; fast++) {
             if (nums[fast] != nums[result]) {
                 result++;
-                nums[result]=nums[fast];
+                nums[result] = nums[fast];
             }
         }
-        return result+1;
+        return result + 1;
     }
+
     public static void main(String[] args) {
-        int[] arr = {1,1,2};
+        int[] arr = {1, 1, 2};
         removeDuplicates removeDuplicates = new removeDuplicates();
         removeDuplicates.removeDuplicates1(arr);
         System.out.println(Arrays.toString(arr));

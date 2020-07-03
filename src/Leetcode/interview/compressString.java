@@ -8,7 +8,7 @@ package Leetcode.interview;
  **/
 public class compressString {
     public String compressString1(String S) {
-        int i=0;
+        int i = 0;
         int N = S.length();
         StringBuilder stringBuilder = new StringBuilder();
         while (i < N) {
@@ -23,7 +23,7 @@ public class compressString {
         String result = stringBuilder.toString();
         if (result.length() < S.length()) {
             return result;
-        }else {
+        } else {
             return S;
         }
     }

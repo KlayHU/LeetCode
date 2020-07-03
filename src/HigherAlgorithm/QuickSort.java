@@ -1,7 +1,7 @@
 package HigherAlgorithm;
 
 /**
- * @description:
+ * @description: 快速排序
  * @author: KlayHu
  * @create: 2020/4/15 17:42
  **/
@@ -9,6 +9,7 @@ public class QuickSort {
     private static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
+
     private static void exch(Comparable[] a, int i, int j) {
         Comparable tmp = a[i];
         a[i] = a[j];
@@ -50,7 +51,7 @@ public class QuickSort {
         //确定分界值
         Comparable key = a[low];
         int left = low;
-        int right = high+1;
+        int right = high + 1;
         //定义两个指针，分别指向将元素切分的最小索引处和最大索引处的下一个位置；
         while (true) {
             //先从右往左扫描，移动left指针，找到一个比分界值小的元素，停止；

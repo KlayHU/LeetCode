@@ -16,7 +16,7 @@ public class mergeTwoLists {
     }
 
     public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
-        if(l1 == null){
+        if (l1 == null) {
             return l2;
         }
         if (l2 == null) {

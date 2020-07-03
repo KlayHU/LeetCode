@@ -1,7 +1,5 @@
 package Leetcode.interview;
 
-import java.util.Arrays;
-
 /**
  * @description: 面试题04：二维数组中的查找 难度【简单】
  * 暴力不可取，时间复杂度O(mn),容易超时
@@ -38,6 +36,6 @@ public class findNumberIn2DArray {
     public static void main(String[] args) {
         findNumberIn2DArray findNumberIn2DArray = new findNumberIn2DArray();
         int[][] arr = {{1, 2, 3, 4, 5}, {2, 3, 4, 5, 6}, {3, 4, 5, 6, 7, 8}, {4, 5, 6, 7, 8, 9}, {9, 10, 11, 12, 13}};
-        findNumberIn2DArray.findNumberIn2DArray1(arr,3);
+        findNumberIn2DArray.findNumberIn2DArray1(arr, 3);
     }
 }
