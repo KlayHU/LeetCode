@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: 21、合并两个有序链表  【难度：简单】
+ * @description: 21.合并两个有序链表  【难度：简单】
  * @author: KlayHu
  * @create: 2019/12/11 11:02
  **/
