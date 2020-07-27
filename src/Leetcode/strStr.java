@@ -21,10 +21,4 @@ public class strStr {
         }
         return -1;
     }
-
-    public static void main(String[] args) {
-        String s1 = "ba";
-        String s2 = "aaaa";
-        new strStr().strStr1(s1, s2);
-    }
 }
