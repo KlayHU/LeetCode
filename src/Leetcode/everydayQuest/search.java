@@ -7,7 +7,7 @@ package Leetcode.everydayQuest;
  * @create: 2020/4/27 17:44
  **/
 public class search {
-    public int search1(int[] nums, int target) {
+    public int search(int[] nums, int target) {
 
         if (nums.length == 0 || nums == null) {
             return -1;

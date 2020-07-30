@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: 67.二进制求和   【难度：简单】
+ * @description: No：67.二进制求和   【难度：简单】
  * @author: KlayHu
  * @deprecate 思路：十进制转二进制，然后求和 （这种思路和算法就没有关系了。java提供了高
  * 精度转化的api）
@@ -10,7 +10,7 @@ package Leetcode;
  * @create: 2020/7/29 9:31
  **/
 public class addBinary {
-    public String addBinary1(String a , String b) {
+    public String addBinary(String a , String b) {
         int upper=0;      //进位
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = a.length() - 1, j = b.length() - 1; i >= 0 || j >= 0; i--, j--) {

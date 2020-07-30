@@ -3,7 +3,7 @@ package Leetcode;
 import java.util.HashMap;
 
 /**
- * @description: 53.最大子序和 【难度：简单】
+ * @description: No：53.最大子序和 【难度：简单】
  * @author: KlayHu
  * 思路：移动指针先找到第一个正数，记录下下标然后开始计算到下一个正数的和，记录结果；
  * 继续移动指针，重复上述的操作直到最后一个正数。如何才能实现O(n)呢
@@ -13,7 +13,7 @@ import java.util.HashMap;
  **/
 public class maxSubArray {
     //动态规划。对于不需要的数无需做记录，只记录当前需要的结果（贪心？）
-    public int maxSubArray1(int[] nums){
+    public int maxSubArray(int[] nums){
         int result = nums[0];      //数组指针
         int sum = 0;            //子序和(从正数开始，故初值赋0)
         for (int num : nums) {

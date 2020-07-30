@@ -1,13 +1,13 @@
 package Leetcode;
 
 /**
- * @description: 69.x的平方根   【难度：简单】
+ * @description: No：69.x的平方根   【难度：简单】
  * 思路：二分查找，对于给定的x，必有0<=y^2<=x，由此可以推出查找上下界
  * @author: KlayHu
  * @create: 2020/7/29 14:18
  **/
 public class mySqrt {
-    public int mySqrt1(int x){
+    public int mySqrt(int x){
         int down =0,up=x;       //上下界
         int result=0;
         while (up - down>=0) {
@@ -23,6 +23,6 @@ public class mySqrt {
     }
 
     public static void main(String[] args) {
-        new mySqrt().mySqrt1(8);
+        new mySqrt().mySqrt(8);
     }
 }

@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @create: 2020/4/28 21:55
  **/
 public class singleNumbers {
-    public int[] signleNumbers(int[] nums) {
+    public int[] singleNumbers(int[] nums) {
 
         //用于将所有的数异或起来
         int k = 0;

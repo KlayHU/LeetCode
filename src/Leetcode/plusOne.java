@@ -3,14 +3,14 @@ package Leetcode;
 import java.util.Arrays;
 
 /**
- * @description: 66.加一  【难度：简单】
+ * @description: No：66.加一  【难度：简单】
  * @author: KlayHu
  * 思路：遍历数组。列出所有可能出现的情况归纳一下进行处理，不要嵌套太多if，之前的思路中判断数组
  * 元素并进行扩容，复杂度达到了O(n^2)，尽量考虑简化的写法，巧妙直观地将规律进行代码转换。
  * @create: 2020/7/28 15:17
  **/
 public class plusOne {
-    public int[] plusOne1(int[] digits){
+    public int[] plusOne(int[] digits){
         int length=digits.length;
         for (int i = length-1; i >= 0; i--) {
             //非进位情况
@@ -44,6 +44,6 @@ public class plusOne {
 
     public static void main(String[] args) {
         int[] arr = {9};
-        new plusOne().plusOne1(arr);
+        new plusOne().plusOne(arr);
     }
 }

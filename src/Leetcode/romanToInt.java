@@ -9,7 +9,7 @@ import java.util.Map;
  * @create: 2019/12/8 18:10
  **/
 public class romanToInt {
-    public static int romanToInt1(String s) {
+    public static int romanToInt(String s) {
         Map<Character, Integer> map = new HashMap();
         map.put('I', 1);
         map.put('V', 5);
@@ -35,6 +35,6 @@ public class romanToInt {
 
     public static void main(String[] args) {
         System.out.println("请输入一段将要转换的罗马数字：");
-        romanToInt1("IVV");
+        romanToInt("IVV");
     }
 }

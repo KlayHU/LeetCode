@@ -1,17 +1,17 @@
 package Leetcode;
 
 /**
- * @description: 38.外观数列    【难度：简单】
+ * @description: No：38.外观数列    【难度：简单】
  * @author: KlayHu
  * @create: 2020/7/20 11:02
  **/
 public class countAndSay {
-    public String countAndSay1(int n) {
+    public String countAndSay(int n) {
         if (n == 1) {
             return "1";
         }
         StringBuffer stringBuffer = new StringBuffer();
-        String str = countAndSay1(n - 1);
+        String str = countAndSay(n - 1);
         int length = str.length();
         int a = 0;          //str的指针，从字符串第0个元素开始
         for (int i = 1; i < length + 1; i++) {
@@ -28,7 +28,7 @@ public class countAndSay {
     }
 
     public static void main(String[] args) {
-        new countAndSay().countAndSay1(8);
+        new countAndSay().countAndSay(8);
     }
 }
 //        HashMap<Integer, String> result = new HashMap<>();

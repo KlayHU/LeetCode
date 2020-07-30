@@ -1,12 +1,12 @@
 package Leetcode;
 
 /**
- * @description: 9.判断回文数  【难度：简单】
+ * @description: No：9.判断回文数  【难度：简单】
  * @author: KlayHu
  * @create: 2019/12/8 16:17
  **/
 public class isPalindrome {
-    public boolean isPalindromes(int x) {
+    public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
         }
@@ -24,7 +24,6 @@ public class isPalindrome {
                 x = (x % div) / 10;         //如果存在其他情况，掐头去尾，把x最高位和最低位去掉
                 div /= 100;                     //重置关卡，和x位数一样大，进一步运算
             }
-
         }
         System.out.println("true");
         return true;
@@ -32,6 +31,6 @@ public class isPalindrome {
 
     public static void main(String[] args) {
         isPalindrome i = new isPalindrome();
-        i.isPalindromes(112211);
+        i.isPalindrome(112211);
     }
 }

@@ -1,13 +1,13 @@
 package Leetcode.interview;
 
 /**
- * @description: 面试题01.06 字符串压缩 难度【简单】
+ * @description: No：面试题01.06 字符串压缩 难度【简单】
  * 双指针
  * @author: KlayHu
  * @create: 2020/7/3 9:59
  **/
 public class compressString {
-    public String compressString1(String S) {
+    public String compressString(String S) {
         int i = 0;
         int N = S.length();
         StringBuilder stringBuilder = new StringBuilder();

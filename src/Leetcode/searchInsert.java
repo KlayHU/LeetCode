@@ -1,12 +1,12 @@
 package Leetcode;
 
 /**
- * @description: 39.搜索插入位置 【简单】
+ * @description: No：39.搜索插入位置 【难度：简单】
  * @author: KlayHu
  * @create: 2020/7/5 19:38
  **/
 public class searchInsert {
-    public int searchInsert1(int[] nums, int target) {
+    public int searchInsert(int[] nums, int target) {
         if (nums.length == 0) {
             return 0;
         }

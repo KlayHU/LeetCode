@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: 21.合并两个有序链表  【难度：简单】
+ * @description: No：21.合并两个有序链表  【难度：简单】
  * @author: KlayHu
  * @create: 2019/12/11 11:02
  **/
@@ -15,7 +15,7 @@ public class mergeTwoLists {
         }
     }
 
-    public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
         }
@@ -23,10 +23,10 @@ public class mergeTwoLists {
             return l1;
         }
         if (l1.val <= l2.val) {
-            l1.next = mergeTwoLists1(l1.next, l2);
+            l1.next = mergeTwoLists(l1.next, l2);
             return l1;
         } else {
-            l2.next = mergeTwoLists1(l1, l2.next);
+            l2.next = mergeTwoLists(l1, l2.next);
             return l2;
         }
     }

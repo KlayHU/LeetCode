@@ -1,13 +1,13 @@
 package Leetcode;
 
 /**
- * @description: 58.最后一个单词的长度   【难度：简单】
+ * @description: No：58.最后一个单词的长度   【难度：简单】
  * @author: KlayHu
  * 从右往左遍历，遇到空格就返回，这样可以避免正常程序遍历时遇到空格的顺序，处理起来更简单
  * @create: 2020/7/27 15:34
  **/
 public class lengthOfLastWord {
-    public int lengthOfLastWord1(String s){
+    public int lengthOfLastWord(String s){
         int end = s.length()-1;     //尾指针;
         while (end >= 0 && s.charAt(end) == ' ') {
             end --;
