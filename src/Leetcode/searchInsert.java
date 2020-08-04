@@ -3,6 +3,7 @@ package Leetcode;
 /**
  * @description: No：39.搜索插入位置 【难度：简单】
  * @author: KlayHu
+ * @deprecated
  * @create: 2020/7/5 19:38
  **/
 public class searchInsert {
