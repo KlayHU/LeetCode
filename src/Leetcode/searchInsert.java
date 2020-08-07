@@ -1,9 +1,9 @@
 package Leetcode;
 
 /**
- * @description: No：39.搜索插入位置 【难度：简单】
+ * @description: No：039.搜索插入位置 【难度：简单】
  * @author: KlayHu
- * @deprecated
+ * 思路：一次遍历，题解思路二分法。
  * @create: 2020/7/5 19:38
  **/
 public class searchInsert {

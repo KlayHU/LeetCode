@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: No：69.x的平方根   【难度：简单】
+ * @description: No：069.x的平方根   【难度：简单】
  * 思路：二分查找，对于给定的x，必有0<=y^2<=x，由此可以推出查找上下界
  * @author: KlayHu
  * @create: 2020/7/29 14:18

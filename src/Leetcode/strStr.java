@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: No：28.实现strStr() 【难度：简单】
+ * @description: No：028.实现strStr() 【难度：简单】
  * @author: KlayHu
  * @create: 2020/7/9 17:07
  **/

@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: No：70.爬楼梯 【难度：简单】
+ * @description: No：070.爬楼梯 【难度：简单】
  * @author: KlayHu
  * 思路：题解区图解算法，dp秒，要看出来数列之间的关系（fibonacci数列）
  * @create: 2020/7/29 15:08

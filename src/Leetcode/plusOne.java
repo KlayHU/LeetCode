@@ -3,7 +3,7 @@ package Leetcode;
 import java.util.Arrays;
 
 /**
- * @description: No：66.加一  【难度：简单】
+ * @description: No：066.加一  【难度：简单】
  * @author: KlayHu
  * 思路：遍历数组。列出所有可能出现的情况归纳一下进行处理，不要嵌套太多if，之前的思路中判断数组
  * 元素并进行扩容，复杂度达到了O(n^2)，尽量考虑简化的写法，巧妙直观地将规律进行代码转换。

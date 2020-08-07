@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: No：38.外观数列    【难度：简单】
+ * @description: No：038.外观数列    【难度：简单】
  * @author: KlayHu
  * @create: 2020/7/20 11:02
  **/

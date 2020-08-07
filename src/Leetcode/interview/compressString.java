@@ -1,7 +1,7 @@
 package Leetcode.interview;
 
 /**
- * @description: No：面试题01.06 字符串压缩 难度【简单】
+ * @description: No：面试题01.06 字符串压缩  难度【简单】
  * 双指针
  * @author: KlayHu
  * @create: 2020/7/3 9:59

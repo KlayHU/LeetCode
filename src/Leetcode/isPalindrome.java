@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: No：9.判断回文数  【难度：简单】
+ * @description: No：009.判断回文数  【难度：简单】
  * @author: KlayHu
  * @create: 2019/12/8 16:17
  **/

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description: No：6.Z字形变换    【难度：中等】
+ * @description: No：006.Z字形变换    【难度：中等】
  * @author: KlayHu
  * 思路：创建一个二维数组，将字符串按照Z字形存进去，输出新的字符串通过正常的遍历得到
  * 题解：思想相同，把每一列元素看做一个StringBuilder对象，遍历后append。时空复杂度低，

@@ -3,7 +3,7 @@ package Leetcode;
 import java.util.HashMap;
 
 /**
- * @description: No：53.最大子序和 【难度：简单】
+ * @description: No：053.最大子序和 【难度：简单】
  * @author: KlayHu
  * 思路：移动指针先找到第一个正数，记录下下标然后开始计算到下一个正数的和，记录结果；
  * 继续移动指针，重复上述的操作直到最后一个正数。如何才能实现O(n)呢

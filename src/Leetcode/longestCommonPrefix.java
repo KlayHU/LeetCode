@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: No：14.最长公共前缀   【难度：简单】
+ * @description: No：014.最长公共前缀   【难度：简单】
  * @author: KlayHu
  * @create: 2019/12/9 10:03
  **/

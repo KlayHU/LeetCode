@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * @description: No：27.移除元素 【简单】
+ * @description: No：027.移除元素 【简单】
  * @author: KlayHu
  * @create: 2020/4/25 19:40
  **/
