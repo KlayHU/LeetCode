@@ -21,7 +21,7 @@ public class merge {
             // 每次进行完比较后直接移动下标
             nums1[len--] = nums1[arr1] > nums2[arr2] ? nums1[arr1--] : nums2[arr2--];
         }
-        // 表示将nums2数组从下标0位置开始，拷贝到nums1数组中，从下标0位置开始，长度为len2+1
+        // 表示将nums2数组从下标0位置开始，拷贝到nums1数组中，从下标0位置开始，长度为arr2+1
         System.arraycopy(nums2, 0, nums1, 0, arr2 + 1);
     }
 }
