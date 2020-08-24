@@ -14,6 +14,12 @@ public class deleteDuplicates {
           val = x;
       }
     }
+
+    /**
+     * 输入: 1->1->2->3->3
+     * 输出: 1->2->3
+     */
+
     public ListNode deleteDuplicates(ListNode head){
         ListNode res = head;
         while (res != null && res.next != null) {

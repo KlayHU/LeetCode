@@ -20,7 +20,7 @@ public class isValid {
         Stack<Character> stack = new Stack<>();
         char[] c = s.toCharArray();
         if (c.length % 2 != 0) {
-            System.out.println("错误!");
+            //System.out.println("错误!");
             return false;
         }
         for (char a : c) {
@@ -28,20 +28,20 @@ public class isValid {
                 stack.push(a);
             } else {
                 if (stack.isEmpty()) {
-                    System.out.println("错误!");
+                    //System.out.println("错误!");
                     return false;
                 }
                 if (stack.pop() != map.get(a)) {       //如果删除的对象和这一个字符不一样，返回错误结果
-                    System.out.println("错误!");
+                    //System.out.println("错误!");
                     return false;
                 }
             }
         }
         if (stack.isEmpty()) {
-            System.out.println("测试用例通过!");
+            //System.out.println("测试用例通过!");
             return true;
         } else {
-            System.out.println("错误!");
+            //System.out.println("错误!");
             return false;
 
         }

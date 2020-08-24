@@ -7,6 +7,15 @@ package Leetcode.Easy;
  * @create: 2020/7/29 15:08
  **/
 public class climbStairs {
+
+    /**
+     * 输入：2                              输入：3
+     * 输出：2                              输出：3
+     * 解释：有两种方法可以爬到楼顶           解释：有三种方法可以爬到楼顶。
+     * 1.  1 阶 + 1 阶
+     * 2.  2 阶
+     */
+
     public int climbStairs(int n){
         int[] dp = new int[n+1];        //这里n+1表示比fibonacci数列多一位，下标从0开始
         dp[0] = 1;
