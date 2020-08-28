@@ -9,7 +9,6 @@ public class mergeTwoLists {
     static class ListNode {
         int val;    //节点的对象，即内容
         ListNode next;  //节点的引用，指向下一个节点
-
         ListNode(int data) {
             val = data;
         }

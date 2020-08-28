@@ -2,8 +2,8 @@ package Leetcode.Interview;
 
 /**
  * @description: No：面试题04 二维数组中的查找  难度【简单】
- * 暴力不可取，时间复杂度O(mn),容易超时
  * @author: KlayHu
+ * 思路：暴力不可取，时间复杂度O(mn),容易超时
  * @create: 2020/4/27 15:49
  **/
 public class findNumberIn2DArray {
@@ -12,10 +12,10 @@ public class findNumberIn2DArray {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return false;
         }
-
-        int rows = matrix.length;      //定义数组行列
+        //定义数组行列
+        int rows = matrix.length;
         int columns = matrix[0].length;
-        //初始化寻找位置
+        //初始化寻找位置下标
         int row = 0;
         int column = columns - 1;
         while (row < rows && column >= 0) {
@@ -31,7 +31,6 @@ public class findNumberIn2DArray {
         }
         return false;
     }
-
 
     public static void main(String[] args) {
         findNumberIn2DArray findNumberIn2DArray = new findNumberIn2DArray();

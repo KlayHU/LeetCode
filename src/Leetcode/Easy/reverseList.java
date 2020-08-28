@@ -11,7 +11,6 @@ package Leetcode.Easy;
  * @create: 2020/8/27 10:07
  **/
 public class reverseList {
-
     public mergeTwoLists.ListNode reverseList(mergeTwoLists.ListNode head){
         //两个全局变量指针，一个临时指针定义在循环结构里面
         mergeTwoLists.ListNode cur = head;
