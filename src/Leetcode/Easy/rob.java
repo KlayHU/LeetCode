@@ -19,7 +19,8 @@ public class rob {
         //记录dp的初始状态
         dp[0] = 0;
         dp[1] = nums[0];
-        for (int index = 2; index <= n; index++) {      //这里index-1表示dp数组和nums数组下标的对应关系
+        for (int index = 2; index <= n; index++) {
+            //这里index-1表示dp数组和nums数组下标的对应关系
             dp[index] = Math.max(dp[index - 1], dp[index - 2] + nums[index-1]);
         }
         return dp[n];

@@ -12,7 +12,7 @@ import java.util.HashMap;
  * @create: 2020/7/27 11:11
  **/
 public class maxSubArray {
-    //动态规划。对于不需要的数无需做记录，只记录当前需要的结果
+    //dp。对于不需要的数无需做记录，只记录当前需要的结果
     public int maxSubArray(int[] nums){
         int result = nums[0];      //数组指针
         int sum = 0;            //子序和(从正数开始，故初值赋0)

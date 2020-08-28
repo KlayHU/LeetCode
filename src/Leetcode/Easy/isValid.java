@@ -31,7 +31,8 @@ public class isValid {
                     //System.out.println("错误!");
                     return false;
                 }
-                if (stack.pop() != map.get(a)) {       //如果删除的对象和这一个字符不一样，返回错误结果
+                //如果删除的对象和这一个字符不一样，返回错误结果
+                if (stack.pop() != map.get(a)) {
                     //System.out.println("错误!");
                     return false;
                 }
