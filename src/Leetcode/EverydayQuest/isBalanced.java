@@ -9,7 +9,7 @@ package Leetcode.EverydayQuest;
  * @create: 2020/8/17 14:24
  **/
 public class isBalanced {
-    public static class TreeNode {
+    public class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -35,12 +35,12 @@ public class isBalanced {
         return Math.abs(left - right) < 2 ? Math.max(left, right) + 1 : -1;
     }
 
-    public static void main(String[] args) {
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(9);
-        root.right = new TreeNode(20);
-        root.right.left = new TreeNode(15);
-        root.right.right = new TreeNode(7);
-        new isBalanced().isBalanced(root);
-    }
+//    public static void main(String[] args) {
+//        TreeNode root = new TreeNode(3);
+//        root.left = new TreeNode(9);
+//        root.right = new TreeNode(20);
+//        root.right.left = new TreeNode(15);
+//        root.right.right = new TreeNode(7);
+//        new isBalanced().isBalanced(root);
+//    }
 }
