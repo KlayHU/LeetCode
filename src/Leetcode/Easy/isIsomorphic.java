@@ -1,7 +1,11 @@
 package Leetcode.Easy;
 
+import com.sun.scenario.effect.SepiaTone;
+
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @description: No：205 同构字符串   【难度：简单】
@@ -17,6 +21,7 @@ import java.util.Map;
 public class isIsomorphic {
     public boolean isIsomorphic(String s, String t) {
         Map<Character, Character> res = new HashMap<>();
+        Set<Integer> set = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
             //因为K是s字符串的字符，V是t字符串的字符，所以首先往Map里面添加元素
             if (!res.containsKey(s.charAt(i))) {
