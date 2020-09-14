@@ -1,7 +1,7 @@
 package Leetcode.Aim4Offer;
 
 /**
- * @description: 剑指Offer 42 连续子数组的最大和   【难度：简单】
+ * @description: No：剑指Offer 42 连续子数组的最大和   【难度：简单】
  * @author: KlayHu
  * 思路：动态规划，A了(动态规划往往用于优化递归问题)
  * ================================================================
