@@ -8,7 +8,7 @@ package Leetcode.Easy;
  * leetcode题解：注意中序遍历的结果需要反过来
  * @create: 2020/9/15 8:21
  **/
-public class convertBST {
+public class convertBST_538 {
 
     public class TreeNode {
         int val;

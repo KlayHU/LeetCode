@@ -1,14 +1,14 @@
 package Leetcode.Easy;
 
 /**
- * @description: No：相同的树    【难度：简单】
+ * @description: No：100 相同的树    【难度：简单】
  * @author: KlayHu
  * 思路：递归
  * ============================================================================================================
  * leetcode：简便写法
  * @create: 2020/9/15 0:09
  **/
-public class isSameTree {
+public class isSameTree_100 {
 
     public class TreeNode {
         int val;

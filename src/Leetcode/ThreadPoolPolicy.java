@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author: KlayHu
  * @create: 2020/9/2 16:13
  **/
-public class StopThread {
+public class ThreadPoolPolicy {
     private static volatile boolean stopRequested;
 
     public static void main(String[] args) throws InterruptedException {
