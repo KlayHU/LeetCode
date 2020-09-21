@@ -1,9 +1,11 @@
 package Leetcode.Medium;
 
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 
 /**
  * @description: No：017.数字电话号码组合    【难度：中等】
@@ -64,9 +66,10 @@ public class letterCombinations_017 {
         System.out.println(res.toString());
         return res;
     }
+        Socket socket ;
+        String ip = socket.getLocalAddress().getHostAddress();
 
     public static void main(String[] args) {
         new letterCombinations_017().letterCombinations("23");
-
     }
 }
